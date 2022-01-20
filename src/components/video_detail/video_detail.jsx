@@ -5,6 +5,7 @@ const VideoDetail = ({ video: { snippet }, video }) => (
   <section className={styles.detail}>
     <iframe
       className={styles.video}
+      title="youtube video player"
       type="text/html"
       width="100%"
       height="500px"
